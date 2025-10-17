@@ -12,8 +12,8 @@ Untuk menjalankan proyek ini, ikuti langkah-langkah persiapan di sisi server (la
       - Untuk macOS atau Linux: ifconfig atau ip addr show
   - Cari dan catat IPv4 Address Anda (contoh: 192.168.1.10).
 5. Jalankan Server: Buka terminal di dalam folder server/ dan jalankan skrip stream_server.py dengan path ke file audio yang ingin Anda putar.
-    - python stream_server.py "path/lengkap/ke/musik.mp3"
-    - Server akan berjalan dan siap menerima koneksi pada port 50007.
+    - python stream_server_udp.py "path/lengkap/ke/musik.mp3"
+    - Server akan berjalan dan siap menerima koneksi.
 
 # Client (Smartphone)
 
