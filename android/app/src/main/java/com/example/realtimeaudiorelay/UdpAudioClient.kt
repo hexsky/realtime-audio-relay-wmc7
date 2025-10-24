@@ -122,7 +122,7 @@ class UdpAudioClient(private val context: android.content.Context, val host: Str
     private fun playFromBuffer() {
         Log.d(TAG, "PlaybackThread started.")
         var expectedSeqNum = 0
-        val JITTER_BUFFER_TARGET_SIZE = 100
+        val JITTER_BUFFER_TARGET_SIZE = 360
 
         try {
             while (running) {
